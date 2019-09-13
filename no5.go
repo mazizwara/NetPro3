@@ -1,25 +1,25 @@
 package main
 
-import{
-    "bufio"
-    "fmt"
-    "net"
-}
+import (
+	"bufio"
+	"fmt"
+	"net"
+)
 
-func check(err error, message string){
-	if err != nil{
+func check(err error, message string) {
+	if err != nil {
 		panic(err)
 	}
 	fmt.Printf("%s\n", message)
 }
 
 func main() {
-	ln, err != net.listen("tcp",":8080")
+	ln, err := net.Listen("tcp", ":8080")
 	check(err, "Server is ready")
 
 	for {
 		conn, err := ln.Accept()
-		check(err, "Accepted connection.")
+		check(err, "Accepted connection")
 
 		go func() {
 			buf := bufio.NewReader(conn)
@@ -32,7 +32,7 @@ func main() {
 					break
 				}
 
-				conn.write([]byte("Hello, " + name))
+				conn.Write([]byte("Hello, " + name))
 			}
 		}()
 	}
