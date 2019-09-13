@@ -5,15 +5,15 @@
 
 ## No 1
 ![no1](https://github.com/mazizwara/NetPro3/blob/master/SS/no1.jpeg)
-![fsm1]()
+![fsm1](https://github.com/mazizwara/NetPro3/blob/master/SS/fsm1.png)
 
 ## Soal No 2
 ![no2](https://github.com/mazizwara/NetPro3/blob/master/SS/no2.jpeg)
-![fsm2]()
+![fsm2](https://github.com/mazizwara/NetPro3/blob/master/SS/fsm2.jpeg)
 
 ## Soal No 3
 ![no3](https://github.com/mazizwara/NetPro3/blob/master/SS/no3.png)
-![fsm3]()
+![fsm3](https://github.com/mazizwara/NetPro3/blob/master/SS/fsm3.jpeg)
 
 ## Soal No 4
 ![no4](https://github.com/mazizwara/NetPro3/blob/master/SS/no4.jpeg)
